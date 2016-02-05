@@ -1,0 +1,12 @@
+Package: imKmeans
+Type: Package
+Title: Improved k-means clustering function
+Version: 1.0
+Date: 2016-02-05
+Author: Kosugitti
+Maintainer: Kosugi E. Koji <kosugitti@gmail.com>
+Description:
+To determine the optimal number of clusters considering the relations between several variables.
+License: GPL v3
+Imports: mvtnorm
+
