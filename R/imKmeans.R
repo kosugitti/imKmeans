@@ -7,8 +7,9 @@
 #' @return bic BIC
 #' 
 #' @export
-#' 
-require(mvtnorm)
+#' @examples 
+#' imKmeans(iris[1:4],3)
+
 imKmeans <- function(dat,cl){
   # step 1
   dat.km <- kmeans(dat,cl,algorithm = "MacQueen")

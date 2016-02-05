@@ -1,6 +1,5 @@
 \name{imKmeans-package}
 \alias{imKmeans-package}
-\alias{imKmeans}
 \docType{package}
 \title{
 \packageTitle{imKmeans}
@@ -13,7 +12,6 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{imKmeans}
 \packageIndices{imKmeans}
-~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
 \packageAuthor{imKmeans}
@@ -21,14 +19,8 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{imKmeans}
 }
 \references{
-~~ Literature or other references for background information ~~
-}
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
-\keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
+Toyoda H. and Ikehara K. 2011 An improved method using k-means to determine the optimal number of clusters, considering the relations between several variables. The Japanese Journal of Psychology,Vol.82, No.1, pp.32-40.
 }
 \examples{
-~~ simple examples of the most important functions ~~
+imKmeans(iris[1:4],3)
 }
